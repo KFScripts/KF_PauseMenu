@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KF PauseMenu</title>
+  <link rel="stylesheet" href="https://atugatran.github.io/FontAwesome6Pro/css/all.min.css" >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page">
+  <div class="container">
+    <div id="player-info" class="player-info">
+      <img src="images/guest.png" alt="" id="player-avatar" class="player-avatar">
+      <div class="player-text-infos">
+        <div class="left-data">
+          <div class="player-name-container">
+            <span class="player-name" id="player-name">Giuseppe Del Papa</span>
+          </div>
+
+          <div class="job-container">
+            <div class="job-name" id="job1">
+              <span class="job-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </span>
+              <span id="job1name">Polizia</span>
+            </div>
+            <div class="job-name" id="job2">
+              <span class="job-icon">
+                <i class="fa-solid fa-mask"></i>
+              </span>
+              <span id="job2name">Criminale</span>
+            </div>
+          </div>
+        </div>
+        <!-- If you want to put a logo on the right, uncomment this and .server-logo class in style.css -->
+        <!-- <div class="right-data">
+          <img src="images/logo.png" alt="" class="server-logo">
+        </div> -->
+      </div>
+      <div class="working-bars">
+      </div>
+    </div>
+    <div class="main-functions">
+      <div class="map" id="map-btn">
+        <div class="background"></div>
+        <div class="map-items-container">
+          <span class="map-icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </span>
+          <spa class="map-label">MAP</spa>
+        </div>
+      </div>
+
+      <div class="main-functions-right">
+        <div class="settings" id="settings-btn">
+          <div class="background"></div>
+          <div class="settings-items-container">
+            <span class="settings-icon">
+              <i class="fa-solid fa-gear"></i>
+            </span>
+            <span class="settings-label">SETTINGS</span>
+          </div>
+        </div>
+
+        <div class="right-split">
+          <div class="discord" id="discord-btn">
+            <div class="background"></div>
+            <div class="discord-items-container">
+              <span class="discord-icon">
+                <i class="fa-solid fa-scale-balanced"></i>
+              </span>
+              <span class="discord-label">RULES</span>
+            </div>
+          </div>
+          <div class="exit" id="exit-btn">
+            <div class="background"></div>
+            <div class="exit-items-container">
+              <span class="exit-icon">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </span>
+              <span class="exit-label">
+                EXIT
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-info">
+      <div class="online-players">
+        <span class="online-players-icon">
+          <i class="fa-solid fa-id-card"></i>
+        </span>
+        <div class="online-players-info">
+          <span class="online-players-label">CITIZEN ID</span>
+          <span class="online-players-value" id="citizen-id">AA1111</span>
+        </div>
+      </div>
+      <div class="player-login-info">
+        <span class="player-login-info-icon">
+          <i class="fa-solid fab fa-discord"></i>
+        </span>
+        <div class="player-login-info-text">
+          <span class="player-login-info-label">DISCORD</span>
+          <span class="player-login-info-value" id="last-login">https://discord.gg/kfdev</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
