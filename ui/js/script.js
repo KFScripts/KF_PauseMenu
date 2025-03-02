@@ -81,10 +81,11 @@ async function getAvatar() {
           avatar = `https://cdn.discordapp.com/avatars/${DISCORD_ID}/${data.avatar}.png`;
         }
       } else {
-        avatar = 'https://biografieonline.it/img/bio/box/b/Benito_Mussolini.jpg';
+        // avatar = 'https://biografieonline.it/img/bio/box/b/Benito_Mussolini.jpg';
+        avatar = "images/guest.png";
       }
         
-      console.log(avatar);
+      // console.log(avatar);
       document.getElementById('player-avatar').src = avatar;
     })
   })

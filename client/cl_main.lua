@@ -114,6 +114,9 @@ end)
 
 RegisterNUICallback('GetDiscordAvatar', function(data, cb)
   local discord_avatar = lib.callback.await('KF_PauseMenu:GetDiscordAvatar', false)
+  if not discord_avatar then
+    return
+  end
   cb({
     avatar = discord_avatar.avatar,
     discord_id = discord_avatar.discord_id,

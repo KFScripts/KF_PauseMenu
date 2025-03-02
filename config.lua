@@ -17,13 +17,13 @@ Config = {}
 -- [[ Framework ]] --
 -- This is the framework you are using. 
 -- This is used to determine some functions like Job fetching and more.
-Config.Framework = 'qbcore' -- 'esx' or 'qbcore'
+Config.Framework = 'esx' -- 'esx' or 'qbcore' (to work with qbox put 'qbcore')
 
 -- [[ Discord Bot Token ]] --
 -- This is required for image fetching from Discord API.
 -- You can create a bot at https://discord.com/developers/applications
 -- It's not needed to join the bot to your server, you just need the token.
-Config.BotToken = ''
+Config.BotToken = '' -- Optional
 
 -- [[ Pause Menu Tick ]] --
 -- From my research the best value for performance is 5. Lower can alter the resmon up to 0.03ms

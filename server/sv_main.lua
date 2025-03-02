@@ -66,7 +66,13 @@ lib.callback.register('KF_PauseMenu:GetDiscordAvatar', function(src)
   local discord_id = GetDiscordID(src)
   if not discord_id then return nil end
   local response = RequestDiscord(discord_id)
-
+  if not response then 
+    return { 
+      avatar = nil,
+      discord_id = discord_id
+    }
+  end
+  
   return {
     avatar = response.avatar or nil,
     discord_id = discord_id
