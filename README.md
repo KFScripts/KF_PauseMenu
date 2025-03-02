@@ -12,7 +12,7 @@ KF Pause Menu is a custom pause menu for GTA V, developed by KFDev
 
 ## Configuration
 
-The [config.lua](http://_vscodecontentref_/1) file contains various settings that you can customize:
+The ```config.lua``` file contains various settings that you can customize:
 
 - **Framework**: Set the framework you are using (`esx` or `qbcore`). -- for qbox just put 'qbcore'
 - **Discord Bot Token**: Optional token for fetching images from the Discord API.
