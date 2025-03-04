@@ -35,7 +35,7 @@ Config.PauseMenuTick = 5
 Config.EnableCommand = true
 Config.Command = 'openpausemenu'
 Config.EnableKeyMapping = true -- Only works if EnableCommand is set to true
-Config.KeyMapping = 'P'
+Config.KeyMapping = 'ESCAPE'
 
 -- [[ EXIT Button ]] --
 -- This is the button that will be used to close the pause menu.
