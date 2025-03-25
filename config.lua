@@ -79,7 +79,7 @@ Config.GetPlayerIdentifier = function(src)
     -- any custom value you want to use.
     -- Since in my custom server i've implemented the CitizenID in ESX, i'll use it.
     -- Change it as your needs.
-    return ESX.GetPlayerFromId(src).citizenid
+    return ESX.GetPlayerFromId(src).identifier
   elseif Config.Framework == 'qbcore' then
     -- The QBCore CitizenID is a good identifier to use, since it's really short
     return QBCore.Functions.GetPlayer(src).PlayerData.citizenid
