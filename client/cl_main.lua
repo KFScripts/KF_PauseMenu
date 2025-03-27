@@ -53,9 +53,10 @@ function PauseMenu()
   TriggerScreenblurFadeIn(5000)
 end
 
-RegisterNUICallback('ready', function(cb)
+RegisterNUICallback('ready', function(data, cb)
   isNuiReady = true
   TriggerEvent('KF_PauseMenu:NuiReady')
+  cb('ok')
 end)
 
 RegisterNUICallback('close', function(data, cb)
