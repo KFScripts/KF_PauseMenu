@@ -27,7 +27,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-- **Discord**: [KFDev Discord](https://discord.gg/kfdev)
+- **Discord**: [KFDev Discord](https://dsc.gg/kfdev)
 - **Tebex**: [KFDev Tebex](https://kfdev.tebex.io)
 - **Documentation**: [KFDev Documentation](https://docs.kfdev.it/)
 
