@@ -2,6 +2,9 @@
 
 KF Pause Menu is a custom pause menu for GTA V, developed by KFDev
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2513f77a-daf9-4dc3-a6c0-2c9066d07c19" />
+
+
 ## Features
 
 - Custom pause menu interface
